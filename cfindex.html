@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="DAC AdShowcase">
+    <meta name="author" content="TechDev 3rd kusapan">
+    <link rel="icon" href="favicon.ico">
+    <title class="title">DAC AdShowcase</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- minigrid -->
+    <link href="css/minigrid.css" rel="stylesheet">
+    <!-- minigridjs -->
+    <script src="js/minigrid.min.js"></script>
+    <!-- gifffer -->
+    <script src="js/gifffer.min.js"></script>
+    <!-- adshowcasejs -->
+    <script src="js/adshowcase.js"></script>
+    <!-- format -->
+    <link href="css/format.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default  navbar-fixed-top line">
+        <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img class="navbar-brand titleImg" src="./demoimg/adshowcase_white_s.png">
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#" style="color:black;">Home</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class=""><a href="./pc.html" style="color:white;">for PC</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class=""><a href="./sd.html" style="color:white;">for SD</a></li>
+          </ul>
+          <!--
+          <ul class="delCul nav navbar-nav">
+            <li><button class="delC" onclick="delC()">Cookieをリセット</button></li>
+          </ul>
+          -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="cards" id="cards" name="cards"></div>
+
+    <script>
+        (function(){
+            function update() {
+                grid.mount();
+            }
+            document.addEventListener('DOMContentLoaded', adshowcase_init);
+            window.addEventListener('resize', update);
+        }());
+
+        function cardupdate() {
+            grid = gridbuilder();
+            grid.mount();
+            window.addEventListener('resize', cardupdate);
+        }
+
+        function gridbuilder() {
+            var grid;
+            grid = new Minigrid({
+                container: '.cards',
+                item: '.card',
+                gutter: 10
+            });
+            return grid;
+        }
+
+        onload = function(){
+          changeImage_All();
+        };
+    </script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

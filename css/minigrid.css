@@ -1,0 +1,141 @@
+body {
+  background-color: black;
+	margin: 0;
+	color: white;
+  z-index: 0;
+}
+button{
+  outline: none;
+}
+
+.title{
+	color: white;
+}
+
+.card{
+	width: 300px;
+	height: 330px;
+	transition: .3s ease-in-out;
+	border: solid 4px dimgray;
+  background-color: black;
+  position: relative;
+}
+.card:hover{
+	width: 300px;
+	height: 330px;
+	transition: .3s ease-in-out;
+	border: solid 4px white;
+  background-color: #171717;
+  position: relative;
+}
+
+.button{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border: solid 0px black;
+}
+.button:hover{
+  width: 100%;
+  height: 100%;
+  background-color: #171717;
+  border: solid 0px black;
+}
+
+/* Anything bellow here isn't necessary, it's only for the demo */
+
+.imgcontainer{
+	top: -10px;
+	width: 250px;
+	height: 170px;
+	position: relative;
+}
+
+.demo-icon{
+	width: 30px;
+	height: 30px;
+  float: right;
+}
+
+.panelbutton{
+	width: 60px;
+	height: 30px;
+  float: right;
+  background-color: inherit;
+}
+
+.panelbody{
+	height: 250px;
+	position: relative;
+	background-color: inherit;
+}
+
+.panel{
+    margin-bottom:0px;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+
+.panel-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-size: 150%;
+		text-align: left;
+		background-color: inherit;
+}
+
+.img{
+	width: auto;
+	max-width: 100%;
+	height: 80%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.modal-body {
+    height:300px;
+}
+
+.cards {
+	top: 80px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dl-setting{
+    font-size: 100%;
+}
+
+.dl-setting dt{
+    font-weight: normal;
+}
+
+.dl-card dt {
+    text-align: left;
+    padding-top:0px;
+    width:100%;
+}
+
+.dl-card dd {
+    text-align: left;
+    width: 100%;
+}
+
+
+.btn-sm {
+    font-size: 100%;
+}
+
+.navbar{
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "active": 0,
+    "pc": 0,
+    "sd": 1,
+    "name": "Billboard (Mobile)",
+    "about": "Mobile用1stView動画広告フォーマットです。縦型動画にも対応しています。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_movie_inline.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/ivt_demo/github_samples/dac_video_inline.html"
+  },
+  {
+    "id": 2,
+    "active": 0,
+    "pc": 0,
+    "sd": 1,
+    "name": "SD_Movie_Interstitial",
+    "about": "SD用インターステイシャル動画広告フォーマットです。縦型動画にも対応しています。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_movie_interstitial.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/ivt_demo/github_samples/dac_video_interstitial_remind320x50.html"
+  },
+  {
+    "id": 3,
+    "active": 0,
+    "pc": 0,
+    "sd": 1,
+    "name": "SD_Movie_Overlay",
+    "about": "SD用オーバーレイ動画広告フォーマットです。縦型動画にも対応しています。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_movie_overlay.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/ivt_demo/github_samples/dac_video_adhesion.html"
+  },
+  {
+    "id": 4,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "InRead Video (Desktop)",
+    "about": "Desktop用インリード動画広告フォーマットです。マウスオーバーで音声が流れ、自動で広告枠が閉じます。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/pc_movie_inread.gif",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/inread.html",
+    "sddemo": ""
+  },
+  {
+    "id": 5,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "InBanner Video (Desktop)",
+    "about": "Desktop用インバナー動画広告フォーマットです。バナーと動画の両方を表示できます",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/pc_movie_inbanner.gif",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/inbanner.html",
+    "sddemo": ""
+  },
+  {
+    "id": 6,
+    "active": 1,
+    "pc": 0,
+    "sd": 1,
+    "name": "InLine Video(Mobile)",
+    "about": "Mobile用インライン動画広告フォーマットです。横幅100%サイズや、レクタングルサイズ内での配信にも対応しています。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_movie_inline.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/adshowcase/demo/sd/inlinevideo_m.html"
+  },
+  {
+    "id": 7,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "Billboard  (Desktop)",
+    "about": "Desktop用ビルボード動画広告フォーマットです。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/pc_movie_billboard.png",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/billboard.html",
+    "sddemo": ""
+  },
+  {
+    "id": 8,
+    "active": 1,
+    "pc": 0,
+    "sd": 1,
+    "name": "MobileBilboard",
+    "about": "Mobile用1stView動画広告フォーマットです。縦型動画にも対応しています。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_movie_inline.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/adshowcase/demo/sd/billboard_m.html"
+  },
+  {
+    "id": 9,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "Skin (Desktop)",
+    "about": "Desktop用スキン広告フォーマットです。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/skin_desktop.png",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/skin.html",
+    "sddemo": ""
+  },
+  {
+    "id": 10,
+    "active": 0,
+    "pc": 0,
+    "sd": 1,
+    "name": "SD_Native",
+    "about": "SD用ネイティブ広告フォーマットです。縦型動画にも対応しています。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/comingsoon.jpg",
+    "pcdemo": "",
+    "sddemo": ""
+  },
+  {
+    "id": 11,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "Lightbox² (Desktop)",
+    "about": "Desktop用動画広告フォーマットです。ダブルレクタングルサイズで、マウスオーバーで動画が拡大します。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/pc_movie_lightbox2.gif",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/lightbox2.html",
+    "sddemo": ""
+  },
+  {
+    "id": 12,
+    "active": 1,
+    "pc": 0,
+    "sd": 1,
+    "name": "Carousel",
+    "about": "Desktop/Mobile用バナー広告フォーマットです。複数の広告がカルーセルで表示され、横スクロールできます。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_carousel.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/adshowcase/demo/carousel.html"
+  },
+  {
+    "id": 13,
+    "active": 1,
+    "pc": 1,
+    "sd": 1,
+    "name": "ViewableInline",
+    "about": "Desktop/Mobile用バナー広告フォーマットです。広告枠が画面内に入ると広告が表示されます。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_viewableinline.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/adshowcase/demo/viewableinline.html"
+  },
+  {
+    "id": 14,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "ViewableWipeBanner",
+    "about": "Desktop用バナー広告フォーマットです。ページをスクロールすると右下にバナー広告が表示されます。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_viewablewipebanner.gif",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/viewablewipebanner.html",
+    "sddemo": ""
+  },
+  {
+    "id": 15,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "ViewableWipeVideo",
+    "about": "Desktop用動画広告フォーマットです。ページをスクロールすると右下に動画広告が流れます。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_viewablewipevideo.gif",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/viewablewipevideo.html",
+    "sddemo": ""
+  },
+  {
+    "id": 16,
+    "active": 1,
+    "pc": 0,
+    "sd": 1,
+    "name": "MobileSidekickBanner",
+    "about": "Mobile用バナー広告フォーマットです。左下のアイコンをタップすると全画面で広告が表示されます。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_sidekick.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/adshowcase/demo/sidekick.html"
+  },
+  {
+    "id": 17,
+    "active": 1,
+    "pc": 0,
+    "sd": 1,
+    "name": "MobileSidekickVideo",
+    "about": "Mobile用動画広告フォーマットです。左下のアイコンをタップすると全画面で動画が流れます。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_sidekick_video.gif",
+    "pcdemo": "",
+    "sddemo": "http://webdemo.dac.co.jp/adshowcase/demo/sidekick_video.html"
+  },
+  {
+    "id": 18,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "DesktopVerticalVideo",
+    "about": "Desktop用縦型動画フォーマットです。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/sd_verticalvideo.gif",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/verticalvideo.html",
+    "sddemo": ""
+  },
+  {
+    "id": 19,
+    "active": 1,
+    "pc": 1,
+    "sd": 0,
+    "name": "CanvasAds",
+    "about": "Desktop用ゲート型広告フォーマットです。",
+    "image": "http://webdemo.dac.co.jp/adshowcase/img/pc_canvasads.png",
+    "pcdemo": "http://webdemo.dac.co.jp/adshowcase/demo/canvasads.html",
+    "sddemo": ""
+  }
+]

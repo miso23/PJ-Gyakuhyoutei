@@ -1,0 +1,305 @@
+html{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.line{
+  height: 65px;
+  /*border-bottom: 4px double white;*/
+  background-color: Black;
+}
+
+.firstDisplay{
+  animation: sizeScale 3s ease 2s;
+}
+
+.leftSpace{
+  float: left;
+  background-color: #252525;
+  height: 100%;
+  width: 20%;
+  margin-top: 0px;
+}
+.top{
+  background-color: black;
+  height: 80px;
+  width: auto;
+}
+.rightSpace{
+  float: right;
+  background-color: black;
+  height: 100%;
+  width: 80%;
+  margin-top: 0px;
+}
+
+.title{
+  color: white;
+  padding: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+}
+.expla{
+  color: white;
+  padding: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.device{
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+}
+.devicepc{
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+}
+.devicesd{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+}
+.exit{
+  float: right;
+  filter: invert(100%);
+  margin-right: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30px;
+  height: 30px;
+}
+.secondDisplayPC{
+  background-color: white;
+  display: block;
+  margin: 0px auto;
+  width: 85%;
+  height: 90%;
+  margin-top: 30px;
+}
+.secondDisplaySD{
+  background-color: white;
+  display: block;
+  margin: 0px auto;
+  width: 320px;
+  height: 568px;
+  margin-top: 25px;
+}
+
+.changeIcon1{
+  width: 45px;
+  height: 45px;
+}
+.changeIcon2{
+  width: 30px;
+  height: 30px;
+}
+
+.changeIconPC{
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border-radius: 50%;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+  position: absolute;
+  margin-top: -190px;
+  margin-left: -65px;
+}
+.card_both:hover .changeIconPC{
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border-radius: 50%;
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  opacity: 1;
+  background-color: White;
+  position: absolute;
+  margin-top: -190px;
+  margin-left: -65px;
+  border: solid 0px black;
+  animation: sizeScale_Icon 0.4s ease 0s;
+}
+.changeIconSD{
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border-radius: 50%;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+  position: absolute;
+  margin-top: -190px;
+  margin-right: 80px;
+}
+.card_both:hover .changeIconSD{
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border-radius: 50%;
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  opacity: 1;
+  background-color: White;
+  position: absolute;
+  margin-top: -190px;
+  margin-right: 80px;
+  border: solid 0px black;
+  animation: sizeScale_Icon 0.4s ease 0s;
+}
+
+.changeImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: alpha(opacity=0);
+  -moz-opacity:0;
+  opacity:0;
+}
+.card_both:hover .changeImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: alpha(opacity=100);
+  -moz-opacity:1;
+  opacity:1;
+}
+
+.disappear{
+  width: 300px;
+  height: 330px;
+  filter: alpha(opacity=0);
+  -moz-opacity:0;
+  opacity:0;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+.disappear:hover{
+  width: 300px;
+  height: 330px;
+  filter: alpha(opacity=100);
+  -moz-opacity:1;
+  opacity:1;
+  /* background-color: rgba(0,0,0,0.7); */
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  /*animation: rotation 0.7s ease 0s;*/
+}
+.alpha{
+  width: 300px;
+  height: 330px;
+  filter: alpha(opacity=0);
+  -moz-opacity:0;
+  opacity:0;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+.alpha:hover{
+  width: 300px;
+  height: 330px;
+  filter: alpha(opacity=100);
+  -moz-opacity:1;
+  opacity:1;
+  /* background-color: rgba(0,0,0,0); */
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+.changeIconPC:hover .alpha{
+  width: 300px;
+  height: 330px;
+  filter: alpha(opacity=100);
+  -moz-opacity:1;
+  opacity:1;
+  /* background-color: rgba(0,0,0,0); */
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+.changeIconSD:hover .alpha{
+  width: 300px;
+  height: 330px;
+  filter: alpha(opacity=100);
+  -moz-opacity:1;
+  opacity:1;
+  /* background-color: rgba(0,0,0,0); */
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+.delCul{
+  height: 64px;
+  float: right;
+  color: black;
+}
+.delC{
+  height: 64px;
+  font-size: 15px;
+}
+.titleImg{
+  padding-right: 65px;
+}
+
+#sdFrame{
+  background-color: black;
+  border: solid 0.5px white;
+  display:block;
+  margin: 0px auto;
+  width: 350px;
+  height: 678px;
+  margin-top: 5px;
+  padding-top: 25px;
+  border-radius: 50px;
+}
+#sdFramePart1{
+  background-color: black;
+  border: solid 0.5px white;
+  display:block;
+  margin: 0px auto;
+  width: 70px;
+  height: 6px;
+  border-radius: 3px;
+}
+#sdFramePart2{
+  background-color: black;
+  border: solid 2px white;
+  display:block;
+  margin: 0px auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 30px;
+  margin-top: 12px;
+}
+
+/*アニメーション関連*/
+@@keyframes sizeScale_FD {
+  0% {transform: scale(.7);}
+  100% {transform: scale(1);}
+}
+@keyframes sizeScale_Icon {
+  0% {transform: scale(.3);}
+100% {transform: scale(1);}
+}
+@keyframes rotation {
+  0% {transform: scale(.8);}
+100% {transform: scale(1) rotate(180deg);}
+}
